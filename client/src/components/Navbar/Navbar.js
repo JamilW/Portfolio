@@ -1,31 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import initials from "../../images/rsz_1rsz_initials.png";
 
 function Navbar()   {
     return  (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
+        <nav className="navdeco">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                        <Link className="navbar-brand" to="/">
+                            <a href="#">
+                                <img src={initials} style={{marginTop: "5px", marginBottom: "5px"}} />
+                                Jamil Weeks
+                            </a>
+                        </Link>
+                    </div>
+                <div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="nav-menu">
+                    <Link className="navbar-brand" to="/">
+                        About&nbsp;&nbsp;|
+                    </Link>
+                    <Link className="navbar-brand" to="/portfolio">
+                        &nbsp;&nbsp;Portfolio&nbsp;&nbsp;|
+                    </Link>
+                    <Link className="navbar-brand" to="/contact">
+                        &nbsp;&nbsp;Contact&nbsp;&nbsp;
+                    </Link>
+                </div>
             </div>
-        </nav>
+        </div>
+    </nav>
     )
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import m1 from "../../images/44633220_10209738520738720_5026671578247593984_n.jpg";
+import jw from "../../images/rsz_1jw.jpg";
 
 function About() {
 
@@ -8,40 +8,46 @@ function About() {
       <div className="container aheight">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
-            <div className="card" style={{fontSize:"12px", backgroundColor: "palevioletred", color:"white"}}>
-              <div className="img-container" >
-                <img alt="M1" src={m1}></img> 
+            {/* <div class="card" style="width: 18rem;">
+              <Link />
+                <img src={jw} class="card-img-top" alt="Jamil Weeks" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
-              <div className="card-footer" >
-              <b><p ><em>Click Contact above to connect.</em></p></b>
+            </div> */}
+          
+            <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
+              <div className="img-container" >
+                <img alt="M1" src={jw}></img> 
+              </div>
+              <div className="card-footer" style={{color: "#ffef96", background: "#3b3a30", paddingTop: "30px", textAlign: "center", height: "77px"}}>
+              <b><p><em>Click Contact above to connect.</em></p></b>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-7 col-lg-9 col-xl-9">
-            <p>
-            <b><em>"Do the best you can until you know better. 
-              Then when you know better, do better."-- Maya Angelou</em><br/><br/>
-              That sums up in pretty much everything I do. Always striving for excellence and growth. 
-              Professionally a computer science graduate and a certified Full stack developer with main focus being on MERN stack 
-              (MongoDB, Express.js, React.js, Node.js). 
-              My strength lies in never giving up, good work ethic 
-              and a student for life which means I never get stagnant.</b>
+          <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe">
+            <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "100px"}}>
+            <b><em>
+            Web Developer with a passion for using my natural ability for creativity alongside my technical expertise
+            in HTML, CSS, and Javascript to work in a team friendly environment. Honing my research skills from my 
+            English degree at the University of North Carolina at Chapel Hill, I successfully use wireframes, such as 
+            Bootstrap and jQuery, to create innovative websites. Over 10 years expertise in working in teams with peers 
+            in an office environment, best demonstrated by helping my team become the number one team in the nation in 
+            sales through developing weekly competitive projects for my team to attain monthly goals.</em></b>
               </p>
-              <p style={{fontSize:"14px"}}>
-              <b>Education:<br/>
+              <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "100px"}}>
+              <b>Education:<br/><br/>
               Full stack web development from UNC at Chapel Hill, NC<br/>
-              <em>2018-2019</em><br/>
-              M.S. Computer Science, FDU, Teaneck NJ<br/>
-              <em>2001-2003</em><br/>
-              <em>Skills:<br/>
+              <em>2018-2019</em><br/><br/>
+              B.A. English, UNC-Chapel Hill, Chapel Hill NC<br/>
+              <em>1998-2002</em><br/><br/>
+              <em>Skills:<br/><br/>
               Express, Security and Sessions storage, User Authentication, MERN-Stack MongoDB, Express.js,
-              React.js, Node.js<br/>
-              MySQL, ORM, Sequelize, firebase, MongoDB.<br/>
-              Heroku & Git<br/>
+              React.js, Node.js<br/><br/>
+              MySQL, ORM, Sequelize, firebase, MongoDB.<br/><br/>
+              Heroku & Git<br/><br/>
               HTML5/CSS, Javascript/Jquery, Responsive design, Bootstrap, Handlebars, Firebase,
-              cookies/localstorage, React.js, API consumption, Json, Cloud database usage.<br/>
-              SAS Certified Advanced Programmer for SAS 9 (05JUL2017)<br/>
-              SAS Certified Base Programmer for SAS 9 (15FEB2017)
+              cookies/localstorage, React.js, Json, Cloud database usage.<br/>
               </em>
               </b>           
             </p>
