@@ -19,6 +19,6 @@ img {
     padding-top: 20px;
 }
 
-/* .card-image-top  {
-    box-shadow: 10px 10px 5px rgba(yellow);
-} */
+.card   {
+    border: 2px solid black;
+}

@@ -19,6 +19,7 @@ img {
     object-fit: cover;
     padding-right: 30px;
     padding-top:10px;
+    border: 2px solid black;
 }
 
 .col-12   {
@@ -27,6 +28,7 @@ img {
 
 .card-img-top-fluid {
     padding-right: 30px;
+    border: 1px solid black;
 }
 
 .card   {
@@ -34,6 +36,7 @@ img {
     width: 30vw;
     margin-top: 20px;
     margin-left: 70px;
+    border: 2px solid black;
 }
 
 #aboutMe    {

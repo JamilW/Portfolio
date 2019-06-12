@@ -25,7 +25,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8-fluid" id="aboutMe">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe">
             <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "200px"}}>
             <b><em>
             Web Developer with a passion for using my natural ability for creativity alongside my technical expertise
