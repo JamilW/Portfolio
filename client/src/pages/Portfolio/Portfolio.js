@@ -3,7 +3,7 @@ import "./portfolio.css";
 import dadirri from "../../images/rsz_1dadirri.png";
 import buknuk from "../../images/rsz_buknuk.png";
 import bamazon from "../../images/bamazon.png";
-import woofer from "../../images/woofer.png";
+import woofer from "../../images/woofer1.png";
 import liri from "../../images/rsz_liri-node-app.png";
 import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
@@ -17,7 +17,7 @@ function Portfolio() {
                     <div className="row">
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={dadirri} class="card-img-top" alt="dadirri"></img>
+                            <img src={dadirri} class="card-img-top-fluid" alt="dadirri"></img>
                                 <div class="card-body">
                                     <h3 class="card-title">Dadirri</h3>
                                 </div>
@@ -29,7 +29,7 @@ function Portfolio() {
                         </div><hr/>    
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "16rem"}}>
-                            <img src={buknuk} class="card-img-top" alt="buknuk"></img>   
+                            <img src={buknuk} class="card-img-top-fluid" alt="buknuk" style={{boxShadow: "10px 10px 5px rgba(yellow)"}}></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">BukNuk</h3>
                                 </div>
@@ -41,7 +41,7 @@ function Portfolio() {
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "16rem"}}>
-                            <img src={bamazon} class="card-img-top" alt="bamazon"></img>   
+                            <img src={bamazon} class="card-img-top-fluid" alt="bamazon"></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">Liri Node App</h3>
                                 </div>
@@ -52,7 +52,7 @@ function Portfolio() {
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "16rem"}}>
-                            <img src={woofer} class="card-img-top" alt="woofer"></img>   
+                            <img src={woofer} class="card-img-top-fluid" alt="woofer"></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">Woofer</h3>
                                 </div>
@@ -64,7 +64,7 @@ function Portfolio() {
                         </div>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={liri} class="card-img-top" alt="liri"></img>   
+                            <img src={liri} class="card-img-top-fluid" alt="liri"></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">Liri Node App</h3>
                                 </div>
@@ -75,7 +75,7 @@ function Portfolio() {
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={GifTastic} class="card-img-top" alt="giftastic"></img>   
+                            <img src={GifTastic} class="card-img-top-fluid" alt="giftastic"></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">GifTastic</h3>
                                 </div>
@@ -87,7 +87,7 @@ function Portfolio() {
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={crystalscollector} class="card-img-top" alt="crystals=collector"></img>   
+                            <img src={crystalscollector} class="card-img-top-fluid" alt="crystals=collector"></img>   
                                 <div class="card-body">
                                     <h3 class="card-title">Crystals Collector</h3>
                                 </div>

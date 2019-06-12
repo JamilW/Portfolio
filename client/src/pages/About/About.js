@@ -18,7 +18,7 @@ function About() {
           
             <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
               <div className="img-container" >
-                <img alt="M1" src={jw}></img> 
+                <img alt="jw" className="card-img-top-fluid" src={jw} style={{objectFit: "cover"}}></img> 
               </div>
               <div className="card-footer" style={{color: "#ffef96", background: "#3b3a30", paddingTop: "30px", textAlign: "center", height: "77px"}}>
               <b><p><em>Click Contact above to connect.</em></p></b>
