@@ -11,7 +11,7 @@ function Navbar()   {
                     <div className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                         <Link className="navbar-brand" to="/">
                             <a href="#">
-                                <img src={initials} style={{marginTop: "5px", marginBottom: "5px"}} />
+                                <img src={initials} style={{marginBottom: "5px"}} />
                                 Jamil Weeks
                             </a>
                         </Link>
