@@ -17,16 +17,16 @@ function About() {
             </div> */}
           
             <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
-              <div className="img-container" >
+              <div className="img-container-fluid" >
                 <img alt="jw" className="card-img-top-fluid" src={jw} style={{objectFit: "cover"}}></img> 
               </div>
-              <div className="card-footer" style={{color: "#ffef96", background: "#3b3a30", paddingTop: "30px", textAlign: "center", height: "77px"}}>
+              <div className="card-body" style={{color: "#ffef96", background: "#3b3a30", paddingTop: "30px", textAlign: "center", height: "77px"}}>
               <b><p><em>Click Contact above to connect.</em></p></b>
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe">
-            <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "100px"}}>
+          <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8-fluid" id="aboutMe">
+            <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "200px"}}>
             <b><em>
             Web Developer with a passion for using my natural ability for creativity alongside my technical expertise
             in HTML, CSS, and Javascript to work in a team friendly environment. Honing my research skills from my 
@@ -35,7 +35,7 @@ function About() {
             in an office environment, best demonstrated by helping my team become the number one team in the nation in 
             sales through developing weekly competitive projects for my team to attain monthly goals.</em></b>
               </p>
-              <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "100px"}}>
+              <p style={{fontSize:"14px", color: "#ffef96", background: "black", marginLeft: "200px"}}>
               <b>Education:<br/><br/>
               Full stack web development from UNC at Chapel Hill, NC<br/>
               <em>2018-2019</em><br/><br/>
