@@ -7,6 +7,7 @@ import woofer from "../../images/woofer1.png";
 import liri from "../../images/rsz_liri-node-app.png";
 import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
+// import Modal from "../../components/Modal";
 
 function Portfolio() {
     return (
@@ -20,6 +21,43 @@ function Portfolio() {
                             <img src={dadirri} class="card-img-top-fluid" alt="dadirri"></img>
                                 <div class="card-body">
                                     <h3 class="card-title">Dadirri</h3>
+                                    {/* <Modal>
+                                    <div class="modal" id="dadirri" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Dadirri</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Axios</li>
+                                                        <li class="list-group-item">Barchart.JS</li>
+                                                        <li class="list-group-item">Bcrypt.JS</li>
+                                                        <li class="list-group-item">Bootstrap</li>
+                                                        <li class="list-group-item">CSS</li>
+                                                        <li class="list-group-item">Express</li>
+                                                        <li class="list-group-item">HTML</li>
+                                                        <li class="list-group-item">Javascript</li>
+                                                        <li class="list-group-item">JQuery</li>
+                                                        <li class="list-group-item">Moment.JS</li>
+                                                        <li class="list-group-item">MongoDB</li>
+                                                        <li class="list-group-item">Mongoose</li>
+                                                        <li class="list-group-item">Node.JS</li>
+                                                        <li class="list-group-item">Passport</li>
+                                                        <li class="list-group-item">Passport-Local</li>
+                                                        <li class="list-group-item">React.JS</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </Modal>     */}
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
                                     <a href="https://dadirri.herokuapp.com/" class="card-link">Deployment</a>

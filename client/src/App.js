@@ -7,6 +7,7 @@ import Contact from "./pages/Contact/Contact";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+// import Modal from "./components/Modal";
 
 function App() {
   return (
