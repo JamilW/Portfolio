@@ -8,8 +8,9 @@ button  {
 
 .list-group-item    {
     font-family: 'Cinzel', serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #ffef96;
+    border: 2px solid black;
     background: rgb(65, 62, 62);
 }
 
