@@ -8,15 +8,16 @@ import liri from "../../images/rsz_liri-node-app.png";
 import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
 import triviagame from "../../images/rsz_triviagame.png"
+import TrainScheduler from "../../images/TrainScheduler.png"
 
 function Portfolio() {
 
     return (
         <div className="container">
-            <div className="row pagecolor">
-                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h4 className="page-header" style={{marginTop: "10px", paddingLeft: "20px"}}>Portfolio<hr/></h4>
-                    <div className="row">
+            <div class="row pagecolor">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4 class="page-header" style={{marginTop: "10px", marginLeft: "20px"}}>Portfolio<hr/></h4>
+                    <div class="row">
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
                             <img src={dadirri} class="card-img-top-fluid" alt="dadirri"></img>
@@ -71,8 +72,8 @@ function Portfolio() {
                                     </Modal>     */}
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://dadirri.herokuapp.com/" class="card-link">Deployment</a>
-                                    <a href="https://github.com/jlevine84/Dadirri" class="card-link">Github Repo</a>
+                                    <a href="https://dadirri.herokuapp.com/" className="card-link">Deployment</a>
+                                    <a href="https://github.com/jlevine84/Dadirri" className="card-link">Github Repo</a>
                                 </div>
                             </div>
                         </div><hr/>
@@ -135,6 +136,18 @@ function Portfolio() {
                             </div>    
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
+                            <img src={triviagame} class="card-img-top-fluid" alt="triviagame"></img>   
+                                <div class="card-body">
+                                    <h3 class="card-title">Hip Hop Trivia</h3>
+                                </div>
+                                <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://jamilw.github.io/Triviagame/" class="card-link">Deployment</a>
+                                    <a href="https://github.com/JamilW/Triviagame" class="card-link">Github Repo</a>
+                                </div>
+                            </div>    
+                        </div><hr/>
+                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "16rem"}}>
                             <img src={woofer} class="card-img-top-fluid" alt="woofer"></img>   
                                 <div class="card-body">
@@ -148,16 +161,16 @@ function Portfolio() {
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={triviagame} class="card-img-top-fluid" alt="triviagame"></img>   
+                            <img src={TrainScheduler} class="card-img-top-fluid" alt="trainscheduler"></img>   
                                 <div class="card-body">
-                                    <h3 class="card-title">Hip Hop Trivia</h3>
+                                    <h3 class="card-title">Train Scheduler</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/Triviagame/" class="card-link">Deployment</a>
-                                    <a href="https://github.com/JamilW/Triviagame" class="card-link">Github Repo</a>
+                                    <a href="https://jamilw.github.io/TrainScheduler/" class="card-link">Deployment</a>
+                                    <a href="https://github.com/JamilW/TrainScheduler" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
-                        </div>
+                        </div><hr/>
                     </div>
                 </div>
             </div>
