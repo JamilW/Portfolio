@@ -7,20 +7,31 @@ import woofer from "../../images/woofer1.png";
 import liri from "../../images/rsz_liri-node-app.png";
 import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
-// import Modal from "../../components/Modal";
+import triviagame from "../../images/rsz_triviagame.png"
 
 function Portfolio() {
+
     return (
         <div className="container">
             <div className="row pagecolor">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h4 className="page-header">Portfolio<hr/></h4>
+                <h4 className="page-header" style={{marginTop: "10px", paddingLeft: "20px"}}>Portfolio<hr/></h4>
                     <div className="row">
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "18rem"}}>
                             <img src={dadirri} class="card-img-top-fluid" alt="dadirri"></img>
                                 <div class="card-body">
                                     <h3 class="card-title">Dadirri</h3>
+                                        {/* <Button color="primary" onClick={this.toggleModal.bind(this)}>Dadirri</Button>
+                                       
+        <Modal isOpen={this.state.modalIsOpen}>
+          <ModalHeader toggle={this.toggleModal.bind(this)}>Modal Title</ModalHeader>
+          <ModalBody>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi rem fugiat perspiciatis sint, nostrum labore nobis quidem sed impedit quae quisquam corrupti, libero commodi a quod pariatur quo qui. Id?</ModalBody>
+          <ModalFooter>
+            <Button color="primary">Sign Up</Button>
+            <Button color="secondary" onClick={this.toggleModal.bind(this)}>Cancel</Button>
+          </ModalFooter>
+        </Modal> */}
                                     {/* <Modal>
                                     <div class="modal" id="dadirri" tabindex="-1" role="dialog">
                                         <div class="modal-dialog" role="document">
@@ -64,7 +75,41 @@ function Portfolio() {
                                     <a href="https://github.com/jlevine84/Dadirri" class="card-link">Github Repo</a>
                                 </div>
                             </div>
-                        </div><hr/>    
+                        </div><hr/>
+                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div class="card bg-dark mb-3" style={{width: "16rem"}}>
+                            <img src={bamazon} class="card-img-top-fluid" alt="bamazon"></img>   
+                                <div class="card-body">
+                                    <h3 class="card-title">BAmazon</h3>
+                                </div>
+                                <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://github.com/JamilW/bamazon" class="card-link">Github Repo</a>
+                                </div>
+                            </div>    
+                        </div><hr/>
+                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
+                            <img src={liri} class="card-img-top-fluid" alt="liri"></img>   
+                                <div class="card-body">
+                                    <h3 class="card-title">Liri Node App</h3>
+                                </div>
+                                <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://github.com/JamilW/liri-node-app" class="card-link">Github Repo</a>
+                                </div>
+                            </div>    
+                        </div><hr/>
+                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
+                            <img src={crystalscollector} class="card-img-top-fluid" alt="crystals=collector"></img>   
+                                <div class="card-body">
+                                    <h3 class="card-title">Crystals Collector</h3>
+                                </div>
+                                <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://jamilw.github.io/unit-4-game/" class="card-link">Deployment</a>
+                                    <a href="https://github.com/JamilW/unit-4-game" class="card-link">Github Repo</a>
+                                </div>
+                            </div>    
+                        </div><hr/>   
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                             <div class="card bg-dark mb-3" style={{width: "16rem"}}>
                             <img src={buknuk} class="card-img-top-fluid" alt="buknuk" style={{boxShadow: "10px 10px 5px rgba(yellow)"}}></img>   
@@ -74,40 +119,6 @@ function Portfolio() {
                                 <div class="card-body" style={{textDecoration: "underline"}}>
                                     <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a>
                                     <a href="https://github.com/hankatola/BukNuk" class="card-link">Github Repo</a>
-                                </div>
-                            </div>    
-                        </div><hr/>
-                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
-                            <div class="card bg-dark mb-3" style={{width: "16rem"}}>
-                            <img src={bamazon} class="card-img-top-fluid" alt="bamazon"></img>   
-                                <div class="card-body">
-                                    <h3 class="card-title">Liri Node App</h3>
-                                </div>
-                                <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://github.com/JamilW/bamazon" class="card-link">Github Repo</a>
-                                </div>
-                            </div>    
-                        </div><hr/>
-                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
-                            <div class="card bg-dark mb-3" style={{width: "16rem"}}>
-                            <img src={woofer} class="card-img-top-fluid" alt="woofer"></img>   
-                                <div class="card-body">
-                                    <h3 class="card-title">Woofer</h3>
-                                </div>
-                                <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a>
-                                    <a href="https://github.com/hankatola/BukNuk" class="card-link">Github Repo</a>
-                                </div>
-                            </div>    
-                        </div>
-                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
-                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={liri} class="card-img-top-fluid" alt="liri"></img>   
-                                <div class="card-body">
-                                    <h3 class="card-title">Liri Node App</h3>
-                                </div>
-                                <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://github.com/JamilW/liri-node-app" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
                         </div><hr/>
@@ -124,14 +135,26 @@ function Portfolio() {
                             </div>    
                         </div><hr/>
                         <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
-                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
-                            <img src={crystalscollector} class="card-img-top-fluid" alt="crystals=collector"></img>   
+                            <div class="card bg-dark mb-3" style={{width: "16rem"}}>
+                            <img src={woofer} class="card-img-top-fluid" alt="woofer"></img>   
                                 <div class="card-body">
-                                    <h3 class="card-title">Crystals Collector</h3>
+                                    <h3 class="card-title">Woofer</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/unit-4-game/" class="card-link">Deployment</a>
-                                    <a href="https://github.com/JamilW/unit-4-game" class="card-link">Github Repo</a>
+                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a>
+                                    <a href="https://github.com/hankatola/BukNuk" class="card-link">Github Repo</a>
+                                </div>
+                            </div>    
+                        </div><hr/>
+                        <div classname="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div class="card bg-dark mb-3" style={{width: "18rem"}}>
+                            <img src={triviagame} class="card-img-top-fluid" alt="triviagame"></img>   
+                                <div class="card-body">
+                                    <h3 class="card-title">Hip Hop Trivia</h3>
+                                </div>
+                                <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://jamilw.github.io/Triviagame/" class="card-link">Deployment</a>
+                                    <a href="https://github.com/JamilW/Triviagame" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
                         </div>
