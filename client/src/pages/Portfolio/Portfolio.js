@@ -72,7 +72,7 @@ function Portfolio() {
                                     </Modal>     */}
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://dadirri.herokuapp.com/" className="card-link">Deployment</a>
+                                    <a href="https://dadirri.herokuapp.com/" className="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/jlevine84/Dadirri" className="card-link">Github Repo</a>
                                 </div>
                             </div>
@@ -84,6 +84,7 @@ function Portfolio() {
                                     <h3 class="card-title">BAmazon</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png">Screenshot</a><hr/>
                                     <a href="https://github.com/JamilW/bamazon" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -95,6 +96,7 @@ function Portfolio() {
                                     <h3 class="card-title">Liri Node App</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
+                                    <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png">Screenshot</a><hr/>
                                     <a href="https://github.com/JamilW/liri-node-app" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -106,7 +108,7 @@ function Portfolio() {
                                     <h3 class="card-title">Crystals Collector</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/unit-4-game/" class="card-link">Deployment</a>
+                                    <a href="https://jamilw.github.io/unit-4-game/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/JamilW/unit-4-game" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -118,7 +120,7 @@ function Portfolio() {
                                     <h3 class="card-title">BukNuk</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a>
+                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/hankatola/BukNuk" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -130,7 +132,7 @@ function Portfolio() {
                                     <h3 class="card-title">GifTastic</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/GifTastic/" class="card-link">Deployment</a>
+                                    <a href="https://jamilw.github.io/GifTastic/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/JamilW/GifTastic" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -142,7 +144,7 @@ function Portfolio() {
                                     <h3 class="card-title">Hip Hop Trivia</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/Triviagame/" class="card-link">Deployment</a>
+                                    <a href="https://jamilw.github.io/Triviagame/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/JamilW/Triviagame" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -154,7 +156,7 @@ function Portfolio() {
                                     <h3 class="card-title">Woofer</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a>
+                                    <a href="https://hankatola.github.io/BukNuk/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/hankatola/BukNuk" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
@@ -166,7 +168,7 @@ function Portfolio() {
                                     <h3 class="card-title">Train Scheduler</h3>
                                 </div>
                                 <div class="card-body" style={{textDecoration: "underline"}}>
-                                    <a href="https://jamilw.github.io/TrainScheduler/" class="card-link">Deployment</a>
+                                    <a href="https://jamilw.github.io/TrainScheduler/" class="card-link">Deployment</a><hr/>
                                     <a href="https://github.com/JamilW/TrainScheduler" class="card-link">Github Repo</a>
                                 </div>
                             </div>    
