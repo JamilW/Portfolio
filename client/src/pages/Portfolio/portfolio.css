@@ -3,6 +3,13 @@
     color: #ffef96;
 }
 
+#apps    {
+    margin-right: 5px;
+    padding-left: 40px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
 .card-body  {
     text-align: center;
 }

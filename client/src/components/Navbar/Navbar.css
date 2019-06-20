@@ -1,10 +1,15 @@
 #nav-menu   {
-    margin-top: 35px;
+    margin-top: 40px;
+}
+
+#initials   {
+    margin-left: 20px;
+    padding-bottom: 10px;
 }
 
 .navdeco  {
     background: black;
-    border: 1px solid #ffef96;
+    border: 1px solid #ada578;
 }
 
 a  {
