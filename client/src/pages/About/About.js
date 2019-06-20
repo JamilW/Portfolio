@@ -16,7 +16,7 @@ function About() {
               </div>
             </div> */}
           
-            <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
+            <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white", boxShadow: "10px 10px black", transform: "translateY(4px)"}}>
               <div className="img-container-fluid" >
                 <img alt="jw" className="card-img-top-fluid" src={jw} style={{objectFit: "cover"}}></img> 
               </div>
