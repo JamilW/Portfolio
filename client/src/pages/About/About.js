@@ -7,7 +7,7 @@ function About() {
   return (
       <div className="container aheight">
         <div className="row">
-          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3">
+          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3" style={{marginLeft: "20px"}}>
             {/* <div class="card" style="width: 18rem;">
               <Link />
                 <img src={jw} class="card-img-top" alt="Jamil Weeks" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
