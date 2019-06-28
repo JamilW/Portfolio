@@ -20,6 +20,7 @@ function About() {
           <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe" style={{paddingBottom: "20px"}}>
             <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", background: "rgb(59, 58, 48)", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", marginLeft: "200px"}}>
             <b><em>
+            <p style={{textDecoration: "underline", textAlign: "center", fontSize: "18px"}}>Background:</p>
             Web Developer with a passion for using my natural ability for creativity alongside my technical expertise
             in HTML, CSS, and Javascript to work in a team friendly environment. Honing my research skills from my 
             English degree at the University of North Carolina at Chapel Hill, I successfully use wireframes, such as 

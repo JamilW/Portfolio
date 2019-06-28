@@ -16,8 +16,9 @@ button  {
     color: #ffef96;
     border: 2px solid black;
     background: rgb(59, 58, 48);
-    box-shadow: 10px 10px 2px black; 
+    box-shadow: 10px 10px 2px #000000; 
     transform: translateY(4px);
+    margin-right: 15px;
 }
 
 input   {
