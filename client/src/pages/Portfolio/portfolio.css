@@ -4,8 +4,7 @@
 }
 
 #apps    {
-    padding-left: 40px;
-    margin-left: 30px;
+    padding-right: 50px;
     margin-bottom: 20px;
 }
 
@@ -27,4 +26,11 @@ img {
 
 .card   {
     border: 2px solid black;
+}
+
+.col-4.col-sm-4 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0;
+    padding-right: 40px;
 }

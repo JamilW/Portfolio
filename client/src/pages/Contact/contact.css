@@ -3,7 +3,11 @@ button  {
 }
 
 .jumbotron  {
-    background: #ffef96;
+    background-image: radial-gradient(white, #ffef96, #f7efc2);
+    min-height: 150vh;
+    width:100vw;
+    background-size: cover;
+    height: auto;
 }
 
 .list-group-item    {

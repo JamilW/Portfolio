@@ -1,0 +1,11 @@
+.closeBtn   {
+    background: black;
+    border: 1px solid #ffef96;
+    color: #ffef96;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#wooferBtn  {
+    margin-bottom: 0;
+}
