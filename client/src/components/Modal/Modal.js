@@ -8,6 +8,7 @@ const modalStyle = {
     color: "black",
     fontFamily: "'Cinzel', serif",
     borderRadius: 5,
+    border: "1px solid black",
     maxWidth: 500,
     minHeight: 300,
     margin: "0 auto",
