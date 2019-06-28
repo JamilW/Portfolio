@@ -9,10 +9,8 @@ import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
 import triviagame from "../../images/rsz_triviagame.png";
 import TrainScheduler from "../../images/TrainScheduler.png";
-import ReactModal from "react-modal";
 import Modal from "../../components/Modal/Modal";
 
-// function Portfolio() {
 class Portfolio extends Component   {
     state = {
         show1: false,
@@ -93,7 +91,7 @@ class Portfolio extends Component   {
         return (
             <div className="container">
                 <div className="row pagecolor">
-                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-fluid">
                     <h4 className="page-header" style={{marginTop: "10px", paddingLeft: "70px", paddingRight: "60px"}}>Portfolio<hr/></h4>
                         <div className="row" id="apps">
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
@@ -122,7 +120,7 @@ class Portfolio extends Component   {
                                     </div>
                                 </div>
                             </div><hr/>
-                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2-fluid">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
                                 <img src={bamazon} className="card-img-top-fluid" alt="bamazon" style={{paddingBottom: "25px"}}></img>      
                                     <div className="card-body">
@@ -148,7 +146,7 @@ class Portfolio extends Component   {
                                     </div>
                                 </div>    
                             </div><hr/>
-                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2-fluid">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
                                 <img src={liri} className="card-img-top-fluid" alt="liri" style={{paddingBottom: "25px"}}></img>   
                                     <div className="card-body">
@@ -176,7 +174,7 @@ class Portfolio extends Component   {
                             </div><hr/>
                         </div>
                         <div className="row" id="apps">
-                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2-fluid">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
                                 <img src={crystalscollector} className="card-img-top-fluid" alt="crystals=collector" style={{paddingBottom: "25px"}}></img>   
                                     <div className="card-body">
@@ -202,7 +200,7 @@ class Portfolio extends Component   {
                                     </div>
                                 </div>    
                             </div><hr/>   
-                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2-fluid">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
                                 <img src={buknuk} className="card-img-top-fluid" alt="buknuk" style={{paddingBottom: "25px"}}></img>   
                                     <div className= "card-body">

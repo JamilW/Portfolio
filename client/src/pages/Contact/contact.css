@@ -15,15 +15,12 @@ button  {
     font-size: 18px;
     color: #ffef96;
     border: 2px solid black;
-    background: rgb(65, 62, 62);
-}
-
-/* textarea    {
-    background: gray;
-    color: #ffef96;
+    background: rgb(59, 58, 48);
+    box-shadow: 10px 10px 2px black; 
+    transform: translateY(4px);
 }
 
 input   {
     background: gray;
     color: #ffef96;
-} */
+} 

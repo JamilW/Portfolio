@@ -7,15 +7,7 @@ function About() {
   return (
       <div className="container aheight">
         <div className="row">
-          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3" style={{marginLeft: "20px"}}>
-            {/* <div class="card" style="width: 18rem;">
-              <Link />
-                <img src={jw} class="card-img-top" alt="Jamil Weeks" style={{fontSize:"12px", backgroundColor: "#3b3a30", color:"white"}}>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div> */}
-          
+          <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3" style={{marginLeft: "20px"}}>          
             <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", color:"white"}}>
               <div className="img-container-fluid">
                 <img alt="jw" className="card-img-top-fluid" src={jw} style={{objectFit: "cover", paddingTop: "30px", paddingBottom: "30px"}}></img> 
@@ -26,7 +18,7 @@ function About() {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe" style={{paddingBottom: "20px"}}>
-            <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", background: "rgb(65, 62, 62)", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", marginLeft: "200px"}}>
+            <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", background: "rgb(59, 58, 48)", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", marginLeft: "200px"}}>
             <b><em>
             Web Developer with a passion for using my natural ability for creativity alongside my technical expertise
             in HTML, CSS, and Javascript to work in a team friendly environment. Honing my research skills from my 
@@ -35,13 +27,13 @@ function About() {
             in an office environment, best demonstrated by helping my team become the number one team in the nation in 
             sales through developing weekly competitive projects for my team to attain monthly goals.</em></b>
               </p>
-              <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", background: "rgb(65, 62, 62)", marginLeft: "200px"}}>
-              <b>Education:<br/><br/>
+              <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", background: "rgb(59, 58, 48)", marginLeft: "200px"}}>
+              <b><p style={{textDecoration: "underline", textAlign: "center", fontSize: "18px"}}>Education:</p>
               Full stack web development from UNC at Chapel Hill, NC<br/>
               <em>2018-2019</em><br/><br/>
               B.A. English, UNC-Chapel Hill, Chapel Hill NC<br/>
               <em>1998-2002</em><br/><br/>
-              <em>Skills:<br/><br/>
+              <em ><p style={{fontSize: "18px", textDecoration: "underline", textAlign: "center"}}>Skills:</p>
               Express, Security and Sessions storage, User Authentication, MERN-Stack MongoDB, Express.js,
               React.js, Node.js<br/><br/>
               MySQL, ORM, Sequelize, firebase, MongoDB.<br/><br/>
