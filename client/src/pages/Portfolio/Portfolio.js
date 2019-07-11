@@ -9,6 +9,9 @@ import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
 import triviagame from "../../images/rsz_triviagame.png";
 import TrainScheduler from "../../images/TrainScheduler.png";
+import js from "../../images/rsz_js.png"
+import FriendFinder from "../../images/rsz_friendfinder.jpg"
+import burger from "../../images/rsz_burger.png"
 import Modal from "../../components/Modal/Modal";
 
 class Portfolio extends Component   {
@@ -84,6 +87,27 @@ class Portfolio extends Component   {
         this.setState({
           ...this.state,
         show9: !this.state.show9
+        })
+      }
+
+      showModal10 = () => {
+        this.setState({
+          ...this.state,
+        show10: !this.state.show10
+        })
+      }
+
+      showModal11 = () => {
+        this.setState({
+          ...this.state,
+        show11: !this.state.show11
+        })
+      }
+
+      showModal12 = () => {
+        this.setState({
+          ...this.state,
+        show12: !this.state.show12
         })
       }
 
@@ -330,6 +354,86 @@ class Portfolio extends Component   {
                                     <div className="card-body" style={{textDecoration: "underline"}}>
                                         <a href="https://jamilw.github.io/TrainScheduler/" className="card-link">Deployment</a><hr/>
                                         <a href="https://github.com/JamilW/TrainScheduler" className="card-link">Github Repo</a>
+                                    </div>
+                                </div>    
+                            </div><hr/>
+                        </div>
+                        <div className="row" id="apps">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
+                                <img src={js} className="card-img-top-fluid" alt="jsconstructors" style={{paddingBottom: "25px"}}></img>
+                                    <div className="card-body">
+                                        <div>
+                                        <input type="button"
+                                            onClick={this.showModal10}
+                                            style={{color: "#ffef96", background: "black", fontSize: "24px", width: "100%", height: "50px", border: "#ffef96 solid 1px", fontFamily: "'Cinzel', serif"}}
+                                            value="JS-Constructors" />   
+                                                        
+                                            <Modal 
+                                            onClose={this.showModal10}
+                                            show={this.state.show10}>
+                                                <h3>Skills Used</h3>
+                                                <hr/>
+                                                <p>Chalk, Inquier, Javascript, JQuery, JS Constructors, Node.Js</p>
+                                                <hr/>  
+                                            </Modal> 
+                                        </div>
+                                    </div>
+                                    <div className="card-body" style={{textDecoration: "underline"}}>
+                                        <a href="https://hephophome.files.wordpress.com/2019/07/constructor3.png" className="card-link">Screenshot</a><hr/>
+                                        <a href="https://github.com/JamilW/js-constructors" className="card-link">Github Repo</a>
+                                    </div>
+                                </div>
+                            </div><hr/>
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
+                                <img src={FriendFinder} className="card-img-top-fluid" alt="jsconstructors" style={{paddingBottom: "25px"}}></img>
+                                    <div className="card-body">
+                                        <div>
+                                        <input type="button"
+                                            onClick={this.showModal11}
+                                            style={{color: "#ffef96", background: "black", fontSize: "24px", width: "100%", height: "50px", border: "#ffef96 solid 1px", fontFamily: "'Cinzel', serif"}}
+                                            value="FriendFinder" />   
+                                                        
+                                            <Modal 
+                                            onClose={this.showModal11}
+                                            show={this.state.show11}>
+                                                <h3>Skills Used</h3>
+                                                <hr/>
+                                                <p>APIs, Bootstrap, CSS, Chosen, Express, Font Awesome, HTML, Javascript, JQuery, Node.Js</p>
+                                                <hr/>  
+                                            </Modal> 
+                                        </div>
+                                    </div>
+                                    <div className="card-body" style={{textDecoration: "underline"}}>
+                                        <a href="https://friendfinder1979.herokuapp.com/" className="card-link">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/FriendFinder" className="card-link">Github Repo</a>
+                                    </div>
+                                </div>
+                            </div><hr/>
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
+                                <img src={burger} className="card-img-top-fluid" alt="woofer" style={{paddingBottom: "25px"}}></img>   
+                                    <div className="card-body">
+                                        <div>
+                                            <input type="button" 
+                                            onClick={this.showModal12}
+                                            style={{color: "#ffef96", background: "black", fontSize: "24px", width: "100%", height: "50px", border: "#ffef96 solid 1px", fontFamily: "'Cinzel', serif"}}
+                                            value="Burger" />   
+
+                                            <Modal 
+                                            onClose={this.showModal12}
+                                            show={this.state.show12}>
+                                                <h3>Skills Used</h3>
+                                                <hr/>
+                                                <p>APIs, CSS, Express, Google Fonts, Handlebars, Javascript, JQuery, and MySQL</p>
+                                                <hr/>
+                                            </Modal>  
+                                        </div>
+                                    </div>
+                                    <div className="card-body" style={{textDecoration: "underline"}}>
+                                        <a href="https://eat-da-burger-logger.herokuapp.com/" className="card-link">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/burger" className="card-link">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
