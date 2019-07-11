@@ -374,7 +374,7 @@ class Portfolio extends Component   {
                                             show={this.state.show10}>
                                                 <h3>Skills Used</h3>
                                                 <hr/>
-                                                <p>Chalk, Inquier, Javascript, JQuery, JS Constructors, Node.Js</p>
+                                                <p>Chalk, Inquier, Javascript, JQuery, JS Constructors, & Node.Js</p>
                                                 <hr/>  
                                             </Modal> 
                                         </div>
@@ -387,7 +387,7 @@ class Portfolio extends Component   {
                             </div><hr/>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
-                                <img src={FriendFinder} className="card-img-top-fluid" alt="jsconstructors" style={{paddingBottom: "25px"}}></img>
+                                <img src={FriendFinder} className="card-img-top-fluid" alt="FriendFinder" style={{paddingBottom: "25px"}}></img>
                                     <div className="card-body">
                                         <div>
                                         <input type="button"
@@ -400,7 +400,7 @@ class Portfolio extends Component   {
                                             show={this.state.show11}>
                                                 <h3>Skills Used</h3>
                                                 <hr/>
-                                                <p>APIs, Bootstrap, CSS, Chosen, Express, Font Awesome, HTML, Javascript, JQuery, Node.Js</p>
+                                                <p>APIs, Bootstrap, CSS, Chosen, Express, Font Awesome, HTML, Javascript, JQuery, & Node.Js</p>
                                                 <hr/>  
                                             </Modal> 
                                         </div>
@@ -413,7 +413,7 @@ class Portfolio extends Component   {
                             </div><hr/>
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
-                                <img src={burger} className="card-img-top-fluid" alt="woofer" style={{paddingBottom: "25px"}}></img>   
+                                <img src={burger} className="card-img-top-fluid" alt="burger" style={{paddingBottom: "25px"}}></img>   
                                     <div className="card-body">
                                         <div>
                                             <input type="button" 
@@ -426,7 +426,7 @@ class Portfolio extends Component   {
                                             show={this.state.show12}>
                                                 <h3>Skills Used</h3>
                                                 <hr/>
-                                                <p>APIs, CSS, Express, Google Fonts, Handlebars, Javascript, JQuery, and MySQL</p>
+                                                <p>APIs, CSS, Express, Google Fonts, Handlebars, Javascript, JQuery, & MySQL</p>
                                                 <hr/>
                                             </Modal>  
                                         </div>
