@@ -124,7 +124,7 @@ class Portfolio extends Component   {
             <div className="container">
                 <div className="row pagecolor">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-fluid">
-                    <h4 className="page-header" style={{marginTop: "10px", paddingLeft: "70px", paddingRight: "60px", fontFamily: "'Cinzel', serif"}}><b>Portfolio</b><hr/></h4>
+                    <h4 className="page-header" style={{marginTop: "10px", paddingLeft: "50px", paddingRight: "30px", fontFamily: "'Cinzel', serif"}}><b>Portfolio</b><hr/></h4>
                         <div className="row" id="apps">
                             <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
                                 <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>

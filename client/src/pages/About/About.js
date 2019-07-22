@@ -6,7 +6,7 @@ function About() {
 
   return (
       <div className="container aheight">
-        <h4 className="page-header" style={{fontFamily: "'Cinzel', serif", marginTop: "10px", paddingLeft: "70px", paddingRight: "60px"}}><b>About Me</b><hr/></h4>
+        <h4 className="page-header" style={{fontFamily: "'Cinzel', serif", marginTop: "10px", paddingLeft: "50px", paddingRight: "40px"}}><b>About Me</b><hr/></h4>
         <div className="row">
           <div className="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3" style={{marginLeft: "20px"}}>          
             <div className="card" style={{fontSize:"12px", backgroundColor: "#3b3a30", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", color:"white"}}>
