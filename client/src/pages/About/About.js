@@ -14,12 +14,12 @@ function About() {
                 <img alt="jw" className="card-img-top-fluid" src={jw} style={{objectFit: "cover", paddingTop: "30px", paddingBottom: "30px"}}></img> 
               </div>
               <div className="card-body" style={{color: "#ffef96", background: "#3b3a30", paddingTop: "30px", textAlign: "center", height: "77px"}}>
-              <b><p><em>Click Contact above to connect.</em></p></b>
+              <b><p style={{textShadow: "2px 2px black"}}><em>Click Contact above to connect.</em></p></b>
               </div>
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8" id="aboutMe" style={{paddingBottom: "20px"}}>
-            <p style={{fontSize:"14px", padding: "10px", color: "#ffef96", background: "rgb(59, 58, 48)", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", marginLeft: "200px"}}>
+            <p style={{textShadow: "2px 2px black", fontSize:"14px", padding: "10px", color: "#ffef96", background: "rgb(59, 58, 48)", boxShadow: "10px 10px 2px black", transform: "translateY(4px)", marginLeft: "200px"}}>
             <b><em>
             <p style={{textDecoration: "underline", textAlign: "center", fontSize: "18px"}}>Background:</p>
             Web Developer with a passion for using my natural ability for creativity alongside my technical expertise

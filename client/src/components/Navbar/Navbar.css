@@ -1,6 +1,7 @@
 #nav-menu   {
     margin-top: 50px;
     padding-right: 20px;
+    justify-content: space-around;
 }
 
 #initials   {
@@ -15,5 +16,8 @@
 
 a  {
     color: #ffef96;
-    padding-right: 10px;
+}
+
+.navbar-brand   {
+    margin-left: 5px;
 }

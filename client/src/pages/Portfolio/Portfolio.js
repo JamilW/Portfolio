@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component } from "react";
 import "./portfolio.css";
 import dadirri from "../../images/rsz_1dadirri.png";
 import buknuk from "../../images/rsz_buknuk.png";
@@ -9,9 +9,10 @@ import GifTastic from "../../images/rsz_giftastic.jpg";
 import crystalscollector from "../../images/rsz_crystalscollector.png";
 import triviagame from "../../images/rsz_triviagame.png";
 import TrainScheduler from "../../images/TrainScheduler.png";
-import js from "../../images/rsz_js.png"
-import FriendFinder from "../../images/rsz_friendfinder.jpg"
-import burger from "../../images/rsz_burger.png"
+import js from "../../images/rsz_js.png";
+import FriendFinder from "../../images/rsz_friendfinder.jpg";
+import burger from "../../images/rsz_burger.png";
+import psychicGame from "../../images/psychicGame.png";
 import Modal from "../../components/Modal/Modal";
 
 class Portfolio extends Component   {
@@ -108,6 +109,13 @@ class Portfolio extends Component   {
         this.setState({
           ...this.state,
         show12: !this.state.show12
+        })
+      }
+
+      showModal13 = () => {
+        this.setState({
+          ...this.state,
+        show13: !this.state.show13
         })
       }
 
@@ -437,6 +445,34 @@ class Portfolio extends Component   {
                                     </div>
                                 </div>    
                             </div><hr/>
+                        </div>
+                        <div className="row" id="apps">
+                            <div className="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                    <div className="card bg-dark mb-3" style={{width: "19rem", boxShadow: "10px 10px 2px black", transform: "translateY(4px)"}}>
+                                    <img src={psychicGame} className="card-img-top-fluid" alt="psychicGame" style={{paddingBottom: "25px"}}></img>   
+                                        <div className="card-body">
+                                            <div>
+                                                <input type="button" 
+                                                onClick={this.showModal13}
+                                                style={{color: "#ffef96", background: "black", fontSize: "24px", width: "100%", height: "50px", border: "#ffef96 solid 1px", fontFamily: "'Cinzel', serif"}}
+                                                value="psychicGame" />   
+
+                                                <Modal 
+                                                onClose={this.showModal13}
+                                                show={this.state.show13}>
+                                                    <h3>Skills Used</h3>
+                                                    <hr/>
+                                                    <p>CSS, Google Fonts, HTML, & Javascript</p>
+                                                    <hr/>
+                                                </Modal>  
+                                            </div>
+                                        </div>
+                                        <div className="card-body" style={{textDecoration: "underline"}}>
+                                            <a href="https://jamilw.github.io/The-Psychic-Game/" className="card-link">Deployment</a><hr/>
+                                            <a href="https://github.com/JamilW/Portfolio" className="card-link">Github Repo</a>
+                                        </div>
+                                    </div>    
+                                </div><hr/>
                         </div>
                     </div>
                 </div>
