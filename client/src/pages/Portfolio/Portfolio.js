@@ -455,7 +455,7 @@ class Portfolio extends Component   {
                                                 <input type="button" 
                                                 onClick={this.showModal13}
                                                 style={{color: "#ffef96", background: "black", fontSize: "24px", width: "100%", height: "50px", border: "#ffef96 solid 1px", fontFamily: "'Cinzel', serif"}}
-                                                value="psychicGame" />   
+                                                value="The Psychic Game" />   
 
                                                 <Modal 
                                                 onClose={this.showModal13}
