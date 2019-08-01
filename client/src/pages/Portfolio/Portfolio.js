@@ -147,8 +147,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://dadirri.herokuapp.com/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/jlevine84/Dadirri" className="card-link">Github Repo</a>
+                                        <a href="https://dadirri.herokuapp.com/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/jlevine84/Dadirri" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>
                             </div><hr/>
@@ -173,8 +173,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png">Screenshot</a><hr/>
-                                        <a href="https://github.com/JamilW/bamazon" className="card-link">Github Repo</a>
+                                        <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png" className="card-link" target="blank">Screenshot</a><hr/>
+                                        <a href="https://github.com/JamilW/bamazon" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -199,8 +199,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png">Screenshot</a><hr/>
-                                        <a href="https://github.com/JamilW/liri-node-app" className="card-link">Github Repo</a>
+                                        <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png" className="card-link" target="blank">Screenshot</a><hr/>
+                                        <a href="https://github.com/JamilW/liri-node-app" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -227,8 +227,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://jamilw.github.io/unit-4-game/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/unit-4-game" className="card-link">Github Repo</a>
+                                        <a href="https://jamilw.github.io/unit-4-game/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/unit-4-game" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>   
@@ -253,8 +253,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hankatola.github.io/BukNuk/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/hankatola/BukNuk" className="card-link">Github Repo</a>
+                                        <a href="https://hankatola.github.io/BukNuk/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/hankatola/BukNuk" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -279,8 +279,8 @@ class Portfolio extends Component   {
                                         </div> 
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://jamilw.github.io/GifTastic/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/GifTastic" className="card-link">Github Repo</a>
+                                        <a href="https://jamilw.github.io/GifTastic/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/GifTastic" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -307,8 +307,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://jamilw.github.io/Triviagame/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/Triviagame" className="card-link">Github Repo</a>
+                                        <a href="https://jamilw.github.io/Triviagame/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/Triviagame" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -334,8 +334,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hankatola.github.io/BukNuk/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/hankatola/BukNuk" className="card-link">Github Repo</a>
+                                        <a href="https://hankatola.github.io/BukNuk/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/hankatola/BukNuk" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -360,8 +360,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://jamilw.github.io/TrainScheduler/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/TrainScheduler" className="card-link">Github Repo</a>
+                                        <a href="https://jamilw.github.io/TrainScheduler/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/TrainScheduler" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -388,8 +388,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hephophome.files.wordpress.com/2019/07/constructor3.png" className="card-link">Screenshot</a><hr/>
-                                        <a href="https://github.com/JamilW/js-constructors" className="card-link">Github Repo</a>
+                                        <a href="https://hephophome.files.wordpress.com/2019/07/constructor3.png" className="card-link" target="blank">Screenshot</a><hr/>
+                                        <a href="https://github.com/JamilW/js-constructors" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>
                             </div><hr/>
@@ -414,8 +414,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://friendfinder1979.herokuapp.com/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/FriendFinder" className="card-link">Github Repo</a>
+                                        <a href="https://friendfinder1979.herokuapp.com/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/FriendFinder" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>
                             </div><hr/>
@@ -440,8 +440,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://eat-da-burger-logger.herokuapp.com/" className="card-link">Deployment</a><hr/>
-                                        <a href="https://github.com/JamilW/burger" className="card-link">Github Repo</a>
+                                        <a href="https://eat-da-burger-logger.herokuapp.com/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/JamilW/burger" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
@@ -468,8 +468,8 @@ class Portfolio extends Component   {
                                             </div>
                                         </div>
                                         <div className="card-body" style={{textDecoration: "underline"}}>
-                                            <a href="https://jamilw.github.io/The-Psychic-Game/" className="card-link">Deployment</a><hr/>
-                                            <a href="https://github.com/JamilW/Portfolio" className="card-link">Github Repo</a>
+                                            <a href="https://jamilw.github.io/The-Psychic-Game/" className="card-link" target="blank">Deployment</a><hr/>
+                                            <a href="https://github.com/JamilW/Portfolio" className="card-link" target="blank">Github Repo</a>
                                         </div>
                                     </div>    
                                 </div><hr/>
