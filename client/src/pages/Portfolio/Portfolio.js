@@ -199,7 +199,7 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hephophome.files.wordpress.com/2019/06/ordersummary.png" className="card-link" target="blank">Screenshot</a><hr/>
+                                        <a href="https://hephophome.files.wordpress.com/2019/08/liri.png" className="card-link" target="blank">Screenshot</a><hr/>
                                         <a href="https://github.com/JamilW/liri-node-app" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
@@ -334,8 +334,8 @@ class Portfolio extends Component   {
                                         </div>
                                     </div>
                                     <div className="card-body" style={{textDecoration: "underline"}}>
-                                        <a href="https://hankatola.github.io/BukNuk/" className="card-link" target="blank">Deployment</a><hr/>
-                                        <a href="https://github.com/hankatola/BukNuk" className="card-link" target="blank">Github Repo</a>
+                                        <a href="https://woofer-21948.herokuapp.com/" className="card-link" target="blank">Deployment</a><hr/>
+                                        <a href="https://github.com/charlesmbrady/Woofer" className="card-link" target="blank">Github Repo</a>
                                     </div>
                                 </div>    
                             </div><hr/>
